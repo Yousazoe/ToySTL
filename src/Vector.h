@@ -14,7 +14,7 @@ protected:
     void shrink();      // 装填因子过小时压缩
     void copyFrom(T const* A, Rank lo, Rank hi);    // 复制数组区间A[lo, hi)
     bool bubble(Rank lo, Rank hi);                  // 扫描交换
-    void bubbleSort(Rank lo, Rank hi);              // 气泡排序算法
+    void bubbleSort(Rank lo, Rank hi);              // 起泡排序算法
     Rank max(Rank lo, Rank hi);                     // 选取最大元素
     void selectionSort(Rank lo, Rank hi);           // 选择排序算法
     void merge(Rank lo, Rank mi, Rank hi);          // 归并算法
