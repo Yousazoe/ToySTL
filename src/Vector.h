@@ -61,7 +61,7 @@ namespace Vector {
 
         /* 可写接口 */
         T& operator[] (Rank r);                                       // 重载下标操作符
-        const T& operator[] (Rank r) const;
+        T& operator[] (Rank r) const;
         Vector<T>& operator= (Vector<T> const&);                      // 重载赋值操作符
 
         T remove(Rank r);                                             // 删除单一元素
